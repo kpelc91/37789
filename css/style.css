@@ -1,0 +1,37 @@
+section {
+    padding: 60px 0;
+}
+
+.showcase-img {
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase-text {
+    padding: 50px;
+}
+
+.showcase {
+    padding: 0;
+}
+
+.location-item {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .service-item,
+    .location-item {
+        margin-bottom: 50px;
+    }
+
+    .service-item:last-child,
+    .location-item-last {
+        margin: 0;
+    }
+
+    .showcase-img {
+        height: 300px;
+    }
+}
+
